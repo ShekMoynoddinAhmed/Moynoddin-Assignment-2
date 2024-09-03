@@ -12,6 +12,15 @@
     margin: 0;
     padding: 0;
 }
+.btn-primary{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 50px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-weight: 600;
+    border: none;
+}
 
 .body {
     font-family: "Inter", sans-serif;
@@ -19,452 +28,413 @@
 
 }
 
+
 #banner {
     width: 100%;
     background-color: rgb(36, 35, 35);
-    margin: 0px auto;
-    background-position: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .container {
+    width: 78%;
+    margin: 0 auto;
     display: flex;
-    text-align: center;
     justify-content: space-between;
-    padding-left: 180px;
-    padding-right: 275px;
-    padding-top: 57px;
+    align-items: center;
+    margin-top: 50px;
 
 }
 
-.title {
+.Fitness-container {
     color: rgb(230, 83, 60);
-    width: 132px;
-    height: 43px;
     font-family: "Inter";
     font-weight: 800;
-    font-size: 36px;
+    font-size: 3em;
     margin: 0px 10px;
 }
+.icon {
+    display: none;
+}
 
-.line {
-    color: white;
-    font-weight: 200;
-    font-size: 20px;
-    gap: 47px;
+.container ul {
     display: flex;
-    list-style: none;
-    text-align: center;
-    justify-content: center;
-    padding: 12px 24px 12px 24px;
+    list-style-type: none;
+    gap: 40px;
 
 }
 
-.line .Home-nav {
-    width: 91px;
-    height: 37px;
-    font-size: 18px;
-    font-weight: 600;
+.container a {
+    color: rgb(255,255,255);
+    font-size: 1.25em;
+    font-weight: 400;
     font-family: "Inter";
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-
-    background-color: rgb(230, 83, 60);
+    text-decoration: none;
+}
+.line{
+    background:rgb(230, 83, 60);
+    border-radius: 45px;
+    line-height: 22px;
+    padding: 8px 20px;
 }
 
 /*banner2*/
 .banner2 {
-    width: 80px;
-    height: 600px;
+    width: 78%;
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: 'Inter';
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin: 32px auto;
 
-
-    margin: 0 auto;
-    gap: 200px;
-}
-
-.div {
-    position: absolute;
-    width: 35%;
-    height: 440px;
-    left: 190px;
-    top: 199px;
-    padding-bottom: 76px;
 }
 
 .shape {
     font-family: "Dancing Script", cursive;
 }
 
-.title2 {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 78px;
-    font-weight: 900;
-    margin: 0px;
+.description{
+    width: 560px;
+    margin-top: 100px;
 }
 
-.subtitle {
+.description h1{
+    color: rgb(255, 255, 255);
+    font-family:'Inter';
+    font-size: 5em;
+    font-weight: 900;
+    margin: 0;
+}
+
+.description p{
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 28px;
+    margin-top: 28px;
 }
 
-.btn {
-    width: 224px;
-    height: 54px;
-    color: rgb(255, 255, 255);
-    font-family: "Inter";
-    font-size: 18px;
-    font-weight: 600;
-    padding: 20px;
-    border-radius: 42px;
-    background: rgb(230, 83, 60);
-    border: none;
-}
 
-#btn {
-    width: 224px;
-    height: 54px;
+.btn-2{
+    box-sizing: border-box;
     color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 18px;
+    font-family: 'Inter';
+    font-size: 1.2em;
     font-weight: 600;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
     padding: 20px;
     background-color: transparent;
-
-
+    margin-bottom: 28px;
+    margin-left: 15px;
 }
 
-.img {
+.card-1{
+   
+    width: 209px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(21px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    width: 349px;
-    height: 580px;
-    left: 877px;
-    top: 135px;
+    left: 54rem;
+    top: 31rem;
 
 }
 
-.one {
-    position: absolute;
-    width: 180px;
-    height: 85px;
-    left: 215px;
-    top: 121px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-}
-
-.title15 {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 40px;
+.card-1 h4{
+    color: rgba(255, 255, 255);
+    font-size: 3em;
     font-weight: 900;
 }
 
-.subtitle15 {
+.card-1 p {
+    color: rgb(255, 255, 255);
+    font-size:  14px;
+    font-weight: 400;
+}
+.card-1 h4,p{
+    margin: 0;
+}
+
+.card-2{
+    width: 188px;
+    height: 90px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
+    position: absolute;
+    left: 77rem;
+    top: 15rem;
+    text-align: center;
+}
+
+.card-2 h4 {
+    color: rgb(250, 250, 249);
+    font-family: "Inter";
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.card-2 p {
+    color: rgba(239, 237, 232, 0.65);
     font-family: "Inter";
     font-size: 13px;
     font-weight: 400;
-    line-height: 20px;
 }
-
-.two {
-    position: absolute;
-    width: 184px;
-    height: 65px;
-    left: -158px;
-    top: 415px;
-    text-align: center;
-    background: rgba(48, 48, 48, 0.54);
-    border-radius: 15px;
-    padding: 20px;
+.card-2{
+    margin: 6px auto;
 }
-
-.title16 {
-    color: rgb(250, 250, 249);
-    font-family: "Inter";
-    font-size: 24px;
-    font-weight: 900;
-
-
-
-
-}
-
-.subtitle16 {
-    color: rgba(239, 237, 232, 0.65);
-    font-family: "Inter";
-    font-size: 16px;
-    font-weight: 400;
-    padding-top: 8px;
-
-
-}
-
-.tow1 {
-    position: absolute;
+.circle{
     width: 40px;
     height: 40px;
-    background: rgb(230, 83, 60);
     border-radius: 50%;
-
-    top: 31px;
-    left: 10px;
+    background-color: rgb(230,83,60);
+    margin-right: 20px;
+}
+.circle img{
+    margin: 8px;
 }
 
-.card {
-    clip-path: circle(50%);
-    position: absolute;
-    width: 12.63px;
-    height: 12px;
-    left: 14px;
-    top: 14px;
-    transform: rotate(90.00deg);
-    background: rgb(250, 250, 249);
-
-
-}
-
-.banner3 {
-    width: 100%;
-    background-position: cover;
+/*Main style starts*/
+.banner3-description {
+    width: 90%;
     background-color: rgb(17, 17, 17);
-    margin: auto;
-    padding-top: 100px;
-
-}
-
-#banner3 {
-    padding-bottom: 58px;
-}
-
-.title3 {
-    color: white;
-    font-size: 40px;
-    font-weight: 600;
+    margin: 0 auto;
     text-align: center;
-    justify-content: center;
+
 }
 
-.subtitle3 {
-    color: white;
-    font-size: 20px;
-    font-weight: 100;
+.habit-description{
+    width: 81%;
+    margin: 0 auto;
     text-align: center;
-    justify-content: center;
 }
 
-#image1 {
-    width: 75%;
+.habit-description h3 {
+    color:rgb(255,255,255);
+    font-size: 3.1em;
+    font-weight: 900;
+    margin: 0px auto;
+    font-family: 'Inter';
+}
+
+.habit-description p {
+    color:rgba(255,255,255,0.5);
+    font-size: 0.75em;
+    font-weight: 400;
+    font-family: 'Inter';
+    line-height: 24px;
+
+}
+
+.lower-part {
+    margin-top: 61px;
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+
+.image-section img {
+
+    border: 2px solid rgb(53, 53, 53);
+    border-radius: 50%;
+
+}
+
+.text-part{
+    width: 235px;;
     margin: 0 auto;
+
 }
 
-.images2 {
-    width: 200px;
-    height: 200px;
-    border: 3px solid rgb(53, 53, 53);
-    border-radius: 50%;
-}
-
-.images1 {
-    width: auto;
-    height: 100%;
-    border-radius: 50%;
-}
-
-
-
-.title4 {
+.text-part h4{
     color: rgb(255, 255, 255);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 18px;
     font-weight: 600;
-    text-align: center;
-    justify-content: center;
-    padding-top: 30px;
+    margin: 10px;
 }
 
-.subtitle4 {
+
+.text-part p {
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 14px;
+    font-family: 'Inter';
+
+    font-size: 12px;
     font-weight: 400;
     line-height: 18px;
-    letter-spacing: 0.3px;
-    text-align: center;
-    padding-bottom: 6px;
 }
 
-.run {
+.extra-mile-container{
     width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px auto;
+    margin: 100px auto;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    margin-top: 100px;
+    
 }
 
-
-
-.contant1 {
-    width: 50%;
-    padding-left: 20px;
+.description-contant1 {
+    width: 444px;
+    margin-left: 53px;
 
 }
 
-.title5 {
-    width: 443px;
+.description-contant1 h2{
     color: rgb(255, 255, 255);
     font-family: "Inter";
-    font-size: 40px;
+    font-size: 3.01em;
     font-weight: 900;
-    text-align: left;
+    margin: 0 auto;
 }
 
-.subtitle5 {
-    width: 443px;
-    color: rgba(255, 255, 255, 0.5);
+.description-contaent1 p{
+    color: rgba(255, 255, 255);
     font-family: "Inter";
     font-weight: 400;
-    font-size: 14px;
-    text-align: left;
-
+    font-size: 13px;
+    margin: 14px 0 34px 0;
 }
 
-.btn1 {
-    width: 224px;
-    height: 54px;
-    color: white;
-    background-color: red;
-    font-size: 15px;
-    font-weight: 18px;
-    font-family: "Inter";
-    border-radius: 40px;
-    padding: 16px 40px;
-    margin-top: 15px;
-    border: none;
-
-
-}
-
-.run1 {
-    width: 50%;
-
-}
-
-.imag1 {
-    width: 90%;
-    height: 100%;
-    border-radius: 10px;
+.image-container {
+    width: 400px;
+    height: 300px;
     padding: 30px;
 
 }
 
-.BMI {
-    width: 50%;
-    text-align: center;
+.image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+}
+/*bmi calculator style starts*/
+
+.BMI-calculator {
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px auto;
-    padding: 88px 0px 88px 0px;
+    flex-direction: column;
+}
+.BMI-heading{
+    width: 40%;
+    margin: 0px auto 79px auto;
+
 }
 
-.title6 {
+.BMI-heading h1{
     color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 48px;
+    font-family: 'Inter';
+    font-size: 3.05em;
     font-weight: 900;
-    text-align: left;
-    padding-bottom: 14px;
+    margin-bottom: 15px;
 }
 
-.subtitle6 {
+.BMI-heading p{
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 14px;
     font-weight: 400;
-    text-align: left;
 }
 
 
-.banner5 {
+.bmi-body{
     width: 100%;
     display: flex;
-    text-align: center;
     justify-content: space-between;
-    background-color: rgb(55, 55, 55);
-    padding-top: 49px;
+    align-items: center;
+    background-color: rgb(34, 34, 35);
+    padding-bottom: 49px;
+    gap: 88px;
 
 }
 
-.moynoddin {
+.left-section{
+    width: 50%;
     margin-left: 189px;
-    margin-bottom: 133px;
+   
 }
 
-.title7 {
-    width: 443px;
-
+.left-section h3 {
     color: rgb(255, 255, 255);
     font-family: "Inter";
-    font-size: 28px;
+    font-size: 1.8rem;
     font-weight: 900;
-    margin-bottom: 58px;
-    text-align: left;
+    margin: 22px 0;
 }
 
-.table1 {
-    color: white;
-    font-size: 20px;
+table {
+
+    width: 100%;
 }
 
-.table1,
+table,
 th,
 td {
     border-collapse: collapse;
     border: 1px solid white;
-    padding: 15px;
+    text-align: left;
 }
 
 th {
     color: rgb(255, 255, 255);
     font-family: 'Inter';
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
-    text-align: left;
+    padding: 11px 11px;
 }
 
 td {
     color: rgba(255, 255, 255, 0.5);
-    font-family:'Inter';
-    font-size: 11px;
+    font-family: 'Inter';
+    font-size: 12px;
     font-weight: 400;
-    text-align: left;
+    padding: 11px 11px;
 }
 
 .moynoddin2 {
-    width: 60%;
-    text-align: left;
+    width: 100%;
+    margin-right: 190px;
+}
+.input1{
+    grid-area: Height;
+}
+.input2{
+    grid-area: Weight;
+}
+.input3{
+    grid-area: Age;
+}
+.input4{
+    grid-area:Gender;
+
+}
+.input5{
+    grid-area: Activity-factor;
+}
+
+.form{
+    display:grid;
+    grid-template-areas:
+    'Height Weight'
+    'Age Gender'
+    'Activity-factor Activity-factor';
+    gap: 20px;
 }
 
 .title8 {
@@ -486,28 +456,24 @@ td {
 }
 
 .input1,
-.input2 {
-    width: 282.5px;
-    height: 40px;
+.input2,
+.input3{
+    /* width:85%; */
     color: rgba(255, 255, 255, 0.6);
     font-family: "Inter";
     font-size: 16px;
     font-weight: 400;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 12px 40px 12px 20px;
+    padding: 12px 20px 12px 20px;
     border: none;
     margin-right: 12px;
     text-align: left;
 }
 
-.input2 {
-    margin-right: 0px;
-}
 
-.input3 {
-    width: 282.5px;
-    height: 40px;
+/*.input3 {
+    width:85%;
     color: rgba(255, 255, 255, 0.6);
     font-family: "Inter";
     font-size: 16px;
@@ -520,12 +486,11 @@ td {
     margin-top: 12px;
     margin-bottom: 12px;
     text-align: left;
-}
+}*/
 
 #Gender {
-
-    width: 342px;
-    height: 64px;
+/* 
+    width:85%; */
     color: rgba(255, 255, 255, 0.6);
     font-family: "Inter";
     font-size: 16px;
@@ -533,16 +498,14 @@ td {
     padding: 12px 20px 12px 20px;
     text-align: left;
     border: none;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-right: 12px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
 
 }
 
 #activity-factor {
-    width: 78%;
-    height: 15%;
+    width:200%;
     color: rgba(255, 255, 255, 0.6);
     font-family: "Inter";
     font-size: 16px;
@@ -555,23 +518,7 @@ td {
     margin-bottom: 34px;
 }
 
-.btn2 {
-    width: 224px;
-    height: 54px;
-    color: rgb(255, 255, 255);
-    font-family: "Inter";
-    font-size: 18px;
-    font-weight: 600;
-    padding: 16px 40px 16px 40px;
-    border-radius: 42px;
-    background: rgb(230, 83, 60);
-    border: none;
-    margin-bottom: 52px;
-
-
-
-}
-
+/* Team container style starts*/
 
 .Team {
     width: 100%;
@@ -604,6 +551,8 @@ td {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
+    gap: 20px;
+    background: rgba(255,255,255,0.1);
     /* height: 50%; */
     /* display: flex; */
     /* display: grid;
@@ -655,23 +604,79 @@ td {
 .trainer {
 
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14px;
     font-weight: 400;
-
-
-
 }
+/*unique-part*/
 
-
-#footeer10 {
-    width: 75%;
+.pricing-plans{
+    width: 88%;
+    color: rgb(255,255,255);
+    padding-bottom: 90px;
+    font-family: "inter",sans-serif;
+    margin: 0 auto;
+}
+.pricing-plans h1{
+    font-size: 2.5em;
+    font-weight: 900;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.unique-part{
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.card01{
+    width: 20%;
+    background-color: rgb(34, 34, 34);
+    padding: 20px;
+    border-radius: 18px;
     text-align: center;
+}
+.card01 h4{
+    color: white;
+    font-size: 1.6em;
+    font-weight: 900;
+    margin: 18px;
+}
+.card01 h2{
+    color: white;
+    font-size: 2.1em;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+.hr-line{
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid rgb(230,80,55);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card01 p{
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+/*footer style starts/*/
+.footer1{
+    width: 100%;
+}
+
+#footer10 {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
     padding-left: 190px;
     padding-right: 190px;
-
+    text-align:center;
+    text-align:left;
+   
 }
 
 .fitness10 {
@@ -679,7 +684,7 @@ td {
 
     margin-top: 66px;
     margin-bottom: 72px;
-
+    text-align: left;
 }
 
 .title9 {
@@ -703,6 +708,7 @@ td {
     width: 190px;
     height: 252px;
     margin-top: 66px;
+    text-align: left;
 }
 
 .title10 {
@@ -725,6 +731,7 @@ td {
     width: 181px;
     height: 249px;
     margin-top: 66px;
+    text-align: left;
 }
 
 .title11 {
@@ -743,16 +750,18 @@ td {
 
 .Horizontal-line {
     width: 75%;
-  
+
     border: 2px solid rgba(255, 255, 255, 0.5);
     margin: 0 auto;
 
 
 }
-.footer1{
+
+.footer1 {
 
     background: rgba(255, 255, 255, 0.1);
 }
+
 .container5 {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
@@ -760,32 +769,206 @@ td {
     font-weight: 400;
     text-align: center;
     justify-content: center;
-    padding-top: 36px ;
+    padding-top: 36px;
     padding-bottom: 36px;
-    
-
-
 }
 
 
 
 /* responsive media quary */
 @media screen and (max-width:576px) {
-    .container {
-        flex-direction: column;
-        height: auto;
-    }
+    .container ul{
+        display: none;
 
-    .line {
+    }
+    .icon {
         display: block;
     }
 
-    .div {
+    nav ul {
+        display: none;
+        
+    }
+
+    .banner2 ,
+    .extra-mile-container{
         flex-direction: column;
 
     }
-
-    .img {
-        grid-template-columns: 1fr;
+    .card-1{
+        width: 156px;
+        height: 76px;
+        top: 61.8rem;
+        left: 3rem;
     }
+    .card-1 h4, p,
+    .card-2 h4,   p{
+        margin: 5px 0;
+
+    }
+    .card-1 h4 {
+        font-size: 1.5em;
+    }
+    .card-2 h4{
+        font-size: 1.78em;
+        
+    }
+    .card-2{
+        width: 156px;
+        height: 73px;
+        top: 49rem;
+        left: 17rem;
+    }
+    .banner2{
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+
+    .btn-primary{
+        padding: 15px 15px;
+    }
+    .btn-2{
+        padding: 15px 15px;
+    }
+
+    .banner3-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .lower-part{
+        width: 299px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .habit-description,
+     h3{
+        font-size:  12px; 
+        text-align: center;
+
+    }
+    .extra-mile-container{
+        width: 100%;
+       
+    }
+    .description-contant1 h2{
+        font-size: 2em;
+    }
+    .description-contant1 button{
+        padding: 16px 120px 16px 120px;
+    
+    }
+
+    /*style starts*/
+    .bmi-body{
+        width: 100%;
+        flex-direction: column;
+    }
+    .BMI-heading{
+        width: 90%;
+        margin-top: 59px;
+    }
+    .left-section{
+        width: 90%;
+        margin: 20px auto;
+        
+    }
+    .left-section h3{
+        font-size: 1.5em;
+        text-align: left;
+
+    }
+   .moynoddin2{
+        width: 90%;
+        margin:0px; 
+    }
+   
+    /* input[type="number"],option{
+        width: 80px;
+        margin: 10px;
+    } */
+    
+
+
+
+
+
+    /*
+
+    .BMI-heading{
+        width: 90% ;
+        margin-top: 59px;
+    }
+    .BMI-heading h1{
+        font-size: 2em;
+    }
+    .bmi-body{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 19px;
+       
+    }
+    .left-section,
+    .right-section{
+        width: 90%;
+        margin: 20px auto;
+       
+    }
+    .left-section h3,
+    .right-section h3{
+        font-size: 1.8em;
+    }
+    form{
+        grid-template-areas: "height weight"
+        "age gender"
+        "activity-factor";
+        gap: 10px;
+    }
+    .right-section button{
+        width: 220px;
+    }
+    .input[type="number"],
+    option{
+        width: 80%;
+    }*/
+    .Team{
+        text-align: center;
+    }
+    .Team h2{
+        font-size: 2em;
+    }
+    .Team p{
+        font-size: 12px;
+    }
+    #Team{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .pricing-plans h1{
+        font-size: 2em;
+    }
+    .unique-part{
+        flex-direction: column;
+       
+    }
+    .card01{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    
+    #footer10{
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+    }
+    .fitness10{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+
+
 }
