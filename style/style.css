@@ -157,12 +157,13 @@
 }
 
 .card-1 p {
-    color: rgb(255, 255, 255);
+    
     font-size:  14px;
     font-weight: 400;
 }
 .card-1 h4,p{
     margin: 0;
+   
 }
 
 .card-2{
@@ -217,9 +218,10 @@
 }
 
 .habit-description{
-    width: 81%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
+    padding-top: 50px;
 }
 
 .habit-description h3 {
@@ -228,6 +230,7 @@
     font-weight: 900;
     margin: 0px auto;
     font-family: 'Inter';
+    margin-top: 50px;
 }
 
 .habit-description p {
@@ -303,12 +306,12 @@
     margin: 0 auto;
 }
 
-.description-contaent1 p{
-    color: rgba(255, 255, 255);
+.description-contant1 p{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 15px 0px 15px 0px;
     font-family: "Inter";
     font-weight: 400;
     font-size: 13px;
-    margin: 14px 0 34px 0;
 }
 
 .image-container {
@@ -410,6 +413,7 @@ td {
 .moynoddin2 {
     width: 100%;
     margin-right: 190px;
+    margin-top: 50px;
 }
 .input1{
     grid-area: Height;
@@ -803,7 +807,8 @@ td {
     }
     .card-1 h4, p,
     .card-2 h4,   p{
-        margin: 5px 0;
+        margin: 5px 0px;
+ 
 
     }
     .card-1 h4 {
